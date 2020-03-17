@@ -35,13 +35,20 @@ end
 
 def update_counting_hash(hash, key)
   hash[key]
+<<<<<<< HEAD
   
+=======
+>>>>>>> b2cf89fda57f176ad8e22eba1c7d430ab2c86580
   if hash[key] then
     hash[key] += 1
   else
     hash[key] = 1 
   end
+<<<<<<< HEAD
  hash
+=======
+  hash[key]
+>>>>>>> b2cf89fda57f176ad8e22eba1c7d430ab2c86580
   # given a hash an a key as parameters, return an updated hash
   # if the provided key is not present in the hash, add it and assign it to the value of 1
   # if the provided key is present, increment its value by 1
